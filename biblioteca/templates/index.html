@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <!-- Usamos las variables que envía Flask -->
+    <h1 class="text-primary">{{ titulo }}</h1>
+    <p class="lead">{{ mensaje }}</p>
+
+    <hr>
+
+    <h3>Sobre nosotros</h3>
+    <p>La Biblioteca Universitaria es el corazón académico de nuestra institución. Nuestro propósito es apoyar la docencia, la investigación y el aprendizaje continuo de estudiantes y profesores, facilitando el acceso a información de calidad.</p>
+
+    <h4>Horario General de Atención</h4>
+    <ul>
+        <li><strong>Lunes a Viernes:</strong> 7:00 AM - 9:00 PM</li>
+        <li><strong>Sábados:</strong> 8:00 AM - 2:00 PM</li>
+        <li><strong>Domingos y feriados:</strong> Cerrado</li>
+    </ul>
+{% endblock %}

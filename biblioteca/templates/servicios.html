@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <h1 class="text-primary">{{ titulo }}</h1>
+    <p class="lead">{{ mensaje }}</p>
+
+    <hr>
+
+    <h3>¿Qué ofrecemos?</h3>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+            <strong>Préstamo de libros:</strong> Lleva materiales a casa por un periodo de 15 días, con posibilidad de renovación.
+        </li>
+        <li class="list-group-item">
+            <strong>Consulta en sala:</strong> Espacios cómodos y silenciosos equipados con mesas y conexiones eléctricas para tu estudio.
+        </li>
+        <li class="list-group-item">
+            <strong>Acceso a recursos digitales:</strong> Conexión a internet de alta velocidad y suscripción a plataformas académicas.
+        </li>
+        <li class="list-group-item">
+            <strong>Orientación bibliográfica:</strong> Personal capacitado para ayudarte a encontrar la información que necesitas para tus investigaciones.
+        </li>
+    </ul>
+{% endblock %}

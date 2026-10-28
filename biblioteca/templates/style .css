@@ -1,0 +1,47 @@
+/* templates/style.css */
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    color: #333; 
+}
+
+.menu { 
+    background-color: #f4f4f4; 
+    padding: 15px 20px; 
+    border-bottom: 1px solid #e0e0e0; 
+}
+
+.menu a { 
+    text-decoration: none; 
+    color: #666; 
+    margin-right: 20px; 
+    font-size: 15px; 
+}
+
+.menu a:hover { 
+    color: #000; 
+}
+
+.contenido { 
+    padding: 20px 30px; 
+}
+
+h1 { 
+    font-size: 38px; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    font-weight: bold; 
+}
+
+p { 
+    font-size: 14px; 
+    color: #555; 
+    margin-top: 5px; 
+}
+
+ul { 
+    font-size: 14px; 
+    color: #555; 
+    line-height: 1.6; 
+}
