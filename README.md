@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Práctica: Sitio Web Multipágina con Flask y Bootstrap - Biblioteca Universitaria
 
 ## Descripción
@@ -34,3 +35,13 @@ Este proyecto consiste en un sitio web para una biblioteca universitaria desarro
 1. Instalar Flask: `pip install flask`
 2. Ejecutar el servidor: `python server.py`
 3. Abrir en el navegador: `http://127.0.0.1:5000`
+=======
+# Biblioteca UDL ICO - Práctica Flask
+
+Proyecto de sitio web multipágina para una biblioteca universitaria.
+
+## Cómo ejecutar
+1. Instalar Flask: `pip install flask`
+2. Ejecutar: `python server.py`
+3. Abrir en navegador: `http://127.0.0.1:5000/`
+>>>>>>> c247f2335d25e1990e6128207bc95206be276469
